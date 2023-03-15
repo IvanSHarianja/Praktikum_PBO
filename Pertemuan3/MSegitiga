@@ -1,0 +1,18 @@
+/** 
+*	File : MSegitiga.java 03/15/2023
+*	Penulis : Ivan S Harianja
+*	Deskripsi : Driver class untuk poligon dan segitiga
+*/
+
+package org.main ;
+
+import org.bangundatar.* ;
+
+public class MSegitiga {
+	public static void main(String[] args) {
+		Segitiga segitiga = new Segitiga(10,10,4) ;
+		segitiga.printInfo() ;
+		System.out.println("Luas Segitiga : "+segitiga.hitungLuas()) ;
+		
+	}
+}
