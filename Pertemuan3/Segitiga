@@ -1,0 +1,27 @@
+/** 
+*	File : Segitiga.java 03/15/2023
+*	Penulis : Ivan S Harianja
+*	Deskripsi :Representasi dari objek segitiga, turunan kelas poligon
+*/
+
+package org.bangundatar ;
+
+import org.poligon.poligon ;
+
+public class Segitiga extends poligon {
+	private double alas,tinggi ;
+	
+	public Segitiga(double alas, double tinggi, int jumlahSisi){
+		this.alas = alas ;
+		this.tinggi = tinggi ;
+		this.jumlahSisi = jumlahSisi ;
+	}
+	
+	public double hitungLuas(){
+		return 0.5 * alas * tinggi ;
+	}
+	
+	public void printInfo(){
+		System.out.println("Segitiga bersisi "+this.getJumlahSisi()) ;
+	}
+}
