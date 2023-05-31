@@ -1,0 +1,7 @@
+Kesimpulan
+1. Dalam file BangunDatarGeneric.java, perubahan yang dilakukan adalah mengganti penggunaan variabel 'T' menjadi 'T2'. 
+Hal ini dapat memberikan nama parameter generik yang lebih deskriptif sehingga ketika menggunakan parameter generik lebih dari satu kali di kelas tersebut, 
+dapat dibedakan dengan jelas.
+
+2. Dalam file BangunDatarGenericTest.java, penggunaan metode bdg.get(), get.class(), dan get.name() digunakan untuk mendapatkan nama kelas yang mewarisi 
+kelas abstrak BangunDatar dan akan digunakan dalam kelas BangunDatarGenericTest.
